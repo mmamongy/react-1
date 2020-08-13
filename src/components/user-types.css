@@ -1,0 +1,36 @@
+.select-container{
+    position: relative;
+    width: 40%;
+    padding: 8px;
+}
+.select-container > input { 
+    width: 100%;
+    height: 30px;
+    border: 1px solid #f3f3f3;
+    padding: 6px 8px;
+    margin:7px 0
+    
+}
+.select-container > input:focus {
+    outline: none;
+}
+.select-container > .input-values {
+    top: 59px;
+    position: absolute;
+    border: 1px solid #6e6e6e ;
+    border-radius: 4px;
+    min-height: 36px;
+    width: 100%;  
+}
+.value-item {
+    text-decoration: none;
+    color: #000;
+    
+    display: block;
+    padding: 5px 8px;
+}
+.value-item:focus,.value-item:hover {
+    color: #fff;
+    background-color: #0000dd;
+   
+} 
